@@ -55,7 +55,7 @@ const Login = () => {
       <label>Username:</label>
       <input
         type="text"
-        value={username}
+        value={user}
         name="username"
         onChange={handleInput}
       />
