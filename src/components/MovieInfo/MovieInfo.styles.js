@@ -30,6 +30,11 @@ export const Content = styled.div`
     display: block;
     max-height: none;
   }
+
+  p {
+    font-size: var(--fontMed);
+  }
+
 `;
 
 export const Text = styled.div`
@@ -63,6 +68,11 @@ export const Text = styled.div`
       margin: 0;
     }
   }
+
+  .rating {
+    margin-top: 40px;
+  }
+  
   h1 {
     @media screen and (max-width: 768px){
       font-size: var(--fontBig);
